@@ -46,7 +46,7 @@ Com o seguinte conteúdo:
 
 ```
 
-WEB\_API\_URL=[http://localhost:4000](http://localhost:4000)
+WEB_API_URL=http://localhost:4000
 
 ```
 
@@ -61,8 +61,8 @@ No backend, você precisa criar um arquivo `.env` na raiz do backend (`backend/.
 ```
 
 PORT=4000
-FRONTEND\_URL=[http://localhost:3000](http://localhost:3000)
-OPENAI\_API\_KEY=\<SUA\_API\_KEY\_OPENAI>
+FRONTEND_URL=http://localhost:3000
+OPENAI_API_KEY=<SUA_API_KEY_OPENAI>
 
 ````
 
@@ -123,8 +123,6 @@ O frontend estará disponível em `http://localhost:3000`.
 ## Observações
 
 * O frontend consome a API do backend via `WEB_API_URL`.
-* Certifique-se de que **backend e frontend estejam rodando** simultaneamente.
-* Qualquer alteração nas variáveis de ambiente requer reiniciar o servidor correspondente.
 
 ---
 
